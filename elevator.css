@@ -1,0 +1,55 @@
+#content-wraper {
+  margin: auto;
+  width: 50%;
+  padding: 2%;
+  text-align: center;
+}
+
+.elevatorA,
+.elevatorB {
+  width: 150px;
+  height: 250px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: lightgray;
+}
+
+.elevatorA button,
+.elevatorB button {
+  width: 20%;
+  margin: 5%;
+  border-radius: 50%;
+  margin-bottom: 10%;
+  border: 1px solid gray;
+}
+
+.elevatorA button:active,
+.elevatorB button:active {
+  background-color: lightblue;
+  border: none;
+}
+
+.general {
+  display: inline-block;
+}
+
+.btn-waiting-elevator {
+  color: red;
+}
+
+.alert-elevator {
+  min-width: 20px;
+}
+
+.floor-buttons {
+  padding: 1%;
+  margin: 4%;
+  text-align: center;
+  width: 200px;
+  border: 2px solid;
+}
+
+.floor-buttons button {
+  margin: 5px;
+}

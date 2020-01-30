@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Elevator</title>
+    <link rel="stylesheet" href="elevator.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div id="content-wraper">
+      <div class="elevatorA general">
+        <h3 id="current-floor-A">Current floor: 0</h3>
+        <button onclick="elevatorAFloorClicked(event)">6</button>
+        <button onclick="elevatorAFloorClicked(event)">5</button>
+        <button onclick="elevatorAFloorClicked(event)">4</button>
+        <button onclick="elevatorAFloorClicked(event)">3</button>
+        <button onclick="elevatorAFloorClicked(event)">2</button>
+        <button onclick="elevatorAFloorClicked(event)">1</button>
+        <button onclick="elevatorAFloorClicked(event)">0</button>
+      </div>
+      <div class="floor-buttons general">
+        <button class="floor-button-up" value="6" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="6" onclick="floorDownClicked(event)">
+          down
+        </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="5" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="5" onclick="floorDownClicked(event)">
+            down
+          </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="4" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="4" onclick="floorDownClicked(event)">
+            down
+          </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="3" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="3" onclick="floorDownClicked(event)">
+            down
+          </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="2" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="2" onclick="floorDownClicked(event)">
+            down
+          </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="1" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="1" onclick="floorDownClicked(event)">
+            down
+          </button><span class="alert-elevator"> - </span>
+        <br />
+        <button class="floor-button-up" value="0" onclick="floorUpClicked(event)">up</button>
+        <button class="floor-button-down" value="0" onclick="floorDownClicked(event)">
+            down
+          </button></span
+        ><span class="alert-elevator"> - </span>
+        <br />
+      </div>
+
+      <div class="elevatorB general">
+        <h3 id="current-floor-B">Current floor: 6</h3>
+        <button onclick="elevatorBFloorClicked(event)">6</button>
+        <button onclick="elevatorBFloorClicked(event)">5</button>
+        <button onclick="elevatorBFloorClicked(event)">4</button>
+        <button onclick="elevatorBFloorClicked(event)">3</button>
+        <button onclick="elevatorBFloorClicked(event)">2</button>
+        <button onclick="elevatorBFloorClicked(event)">1</button>
+        <button onclick="elevatorBFloorClicked(event)">0</button>
+      </div>
+    </div>
+  </body>
+  <script src="elevator.js"></script>
+</html>
